@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <p>Papi Johan Gonzalez Gonzalez</p>
+    <p>YAEL VALTIERRA GÓMEZ</p>
 @stop
 
 @section('css')
