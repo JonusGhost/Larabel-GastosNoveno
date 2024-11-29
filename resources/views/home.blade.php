@@ -8,6 +8,9 @@
 
 @section('content')
     <p>RAMÍREZ OLIVO AXEL ISAÍ</p>
+    <p>GONZALEZ GONZALEZ JOHAN</p>
+     <p>VARGAS ESPINOSA JONATHAN EMMANUEL</p>
+    <p>YAEL GOMEZ</p>
 @stop
 
 @section('css')
