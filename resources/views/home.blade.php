@@ -8,6 +8,9 @@
 
 @section('content')
     <p>RAMÍREZ OLIVO AXEL ISAÍ</p>
+    <p>GONZALEZ GONZALEZ JOHAN</p>
+    <p>VARGAS ESPINOSA JONATHAN EMMANUEL</p>
+    <p>YAEL GOMEZ</p>
 
     <!-- Nueva sección: Lista de tareas -->
     <h3>Tareas pendientes</h3>
@@ -55,4 +58,25 @@
         
         // Agregar un gráfico simple con Chart.js
         var ctx = document.getElementById('chart').getContext('2d');
-      
+        var chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Enero', 'Febrero', 'Marzo', 'Abril'],
+                datasets: [{
+                    label: 'Ingresos mensuales',
+                    data: [1500, 1800, 2000, 2200],
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+@stop
